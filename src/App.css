@@ -1,12 +1,5 @@
-.logo.vite:hover {
-  filter: drop-shadow(0 0 2em #747bff);
-}
-
-.logo.solid:hover {
-  filter: drop-shadow(0 0 2em #2f5d90);
-}
 :root {
-  font-family: Nimbus Sans, sans-serif;
+  font-family: Inter, sans-serif;
   font-size: 16px;
   line-height: 24px;
   font-weight: 400;
@@ -19,6 +12,14 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   -webkit-text-size-adjust: 100%;
+}
+
+.logo.vite:hover {
+  filter: drop-shadow(0 0 2em #747bff);
+}
+
+.logo.solid:hover {
+  filter: drop-shadow(0 0 2em #2f5d90);
 }
 
 .container {
